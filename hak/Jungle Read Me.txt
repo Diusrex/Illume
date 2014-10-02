@@ -1,0 +1,37 @@
+Jacoby's Jungle
+
+This hak is plug and PLay - All erf information is inlcuded with the hak.
+
+Instructions:
+
+1) Place in hak directory of NWN and begin
+2) Thanks it!
+
+
+Compatibility:
+
+I broke this hak into parts so that you may exclude the sounds and creatures if you choose not to use them.
+
+1) Uses a door 2da for Hills and Homes
+2) Creature (apearance and portrait) 2da is 1.64 compatible
+
+Other than those mentioned this hak should be compatible with all others.
+
+How I made this Jungle and Credits to all original author's
+
+1) Jackal combine Yumi Chan's water, Thallions Hills&Homes and DLA's Canopy.
+2) I reskinned Jackal's workusing Baron Rage's Junlge textures.
+3) I edited all the falling leaves out of the mdl's and also made many of the DLA canopies fadable.
+4) I edited many tiles adding Charlies's Lush Bushes and Shadowlvl's ferns.
+5) I then combined and reskinned Acropoles Forte de Hombrev2 into the Jungle and edited the edge 2da and translated the set and itp to English (A daunting task).
+6) I added some_ux's airships, caravel and carrack editing some mdls and changing the water height.
+7) I added my custom mdl's fallen log, walkthrough tree and suspension bridge (which is a remake of Blood Monkey's 1x5 version).
+8) I reskinned Fantu's lion using Nencraban's lion portrait.
+9) I added Shadowlvl's Vine creatures.
+10) I combined some Jungle sounds to add addition atmosphere from sound dog. 
+11) Finally I added Lord Sullivan's awesome Myan pyramid reskinned with a complimentary ruined stair by racerblue.
+
+AS you can see I did a horde of editing and combination work but the real credit belongs to the entire comunity. Without the comunity this hak would have never happened.
+
+
+Enjoy!
