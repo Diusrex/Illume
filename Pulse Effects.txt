@@ -1,0 +1,16 @@
+Effect Tag: door
+    Requirements: Is a door like object
+    Effect: Will open or close the door
+
+Effect Tag: torch
+    Requirements: Is an illuminatable object
+    Effect: Will toggle the lights animation
+    
+Effect Tag: static_obelisk
+    Requirements: None
+    Effect: Will create a pulse like effect
+    
+Effect Tag: light_switch
+    Requirements: The object MUST NOT BE STATIC (placeables are this by default)
+    Effect: Will have the object glow and emit a light. Currently only orange, but this could be changed.
+    Variables: The object to be lit will need a float variable 'time', which will be the length of time it will stay lit
