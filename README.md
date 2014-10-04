@@ -6,7 +6,7 @@ All the required files for the project.
 Adding a new Module
 ---------
 
-1. Once you have created the module, import the packages you will need from the folder called 'packages'. (To import, go to file->import). Required Packages:
+1. Once you have created the module, import the packages you will need from the folder called 'erf'. (To import, go to file->import). Required Packages:
 
   * MR_dinger
   * MR_camera
