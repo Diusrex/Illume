@@ -1,18 +1,14 @@
 Effect Tag: door
-    Requirements: Is a door like object
-    Effect: Will open or close the door
+    Requirements: Is a door like object.
+    Effect: Will open or close the door.
 
 Effect Tag: torch
-    Requirements: Is an illuminatable object
-    Effect: Will toggle the lights animation
-    
-Effect Tag: static_obelisk
-    Requirements: None
-    Effect: Will create a pulse like effect
-    
+    Requirements: Is an illuminatable object.
+    Effect: Will toggle the light's animation.
+
 Effect Tag: light_switch
-    Requirements: The object MUST NOT BE STATIC (placeables are this by default)
-    Effect: Will have the object glow and emit a light. Currently only orange, but this could be changed.
+    Requirements: The object MUST NOT BE STATIC (placeables are this by default).
+    Effect: Will have the object glow and emit a light and pulse. Can be "blue", "brown", "cyan", "magenta", or "orange".
     Variables: 
-        time -> float, will be the length of time it will stay lit
-        color -> string, will be the color that the mushroom should be lit up. THIS NEEDS SOME WORK
+        time -> float, will be the length of time it will stay lit.
+        color -> string, will be the color that the mushroom should be lit up.
