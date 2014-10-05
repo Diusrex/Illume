@@ -1,0 +1,26 @@
+========================================================================
+|                 |                  |                 |               |
+|  .erf Filename  |      Scripts     |   Placeables    |   Triggers    |
+|                 |                  |                 |               |
+========================================================================
+| MR_dinger       | activate_pulse   | pulse_center    |               |
+|                 | aoe_of_pulse     |                 |               |
+|                 | color            |                 |               |
+|                 | enable_pulseable |                 |               |
+|                 | enter_module     |                 |               |
+|                 | pulse_effect     |                 |               |
+========================================================================
+| MR_camera       | cmd_cam_topdown  |                 |               |
+|                 | enter_area       |                 |               |
+|                 | turn_on_beacons  |                 |               |
+========================================================================
+| MR_lantern      | lantern_create   |                 | lantern_death |
+|                 | lantern_death    |                 |               |
+========================================================================
+| MR_ding_objects |                  | m_beacon        |               |
+|                 |                  | m_blue_light    |               |
+|                 |                  | m_brown_light   |               |
+|                 |                  | m_cyan_light    |               |
+|                 |                  | m_magenta_light |               |
+|                 |                  | m_orange_light  |               |
+========================================================================
