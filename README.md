@@ -8,10 +8,10 @@ Adding a new Module
 
 1. Once you have created the module, import the packages you will need from the folder called 'erf'. (To import, go to file->import). Required Packages:
 
-  * MR_dinger            (6 scripts, 1 placeable)
   * MR_camera            (2 scripts)
+  * MR_ding_objects      (6 placeables)
+  * MR_dinger            (6 scripts, 1 placeable)
   * MR_intro_scripts     (2 scripts, 1 trigger)
-  * MR_objects_to_ding   (6 placeables)
 
 2. Add the needed hakpaks to the module, using Edit->Module Properties, tab "Custom Content". Required Hakpaks:
 
