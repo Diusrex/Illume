@@ -12,3 +12,10 @@ Effect Tag: light_switch
     Variables: 
         time -> float, will be the length of time it will stay lit.
         color -> string, will be the color that the mushroom should be lit up.
+
+Effect Tag: beacon
+    Requirements: The object MUST NOT BE STATIC (placeables are this by default).
+    Effect: Object will change color and emit pulse of new color. Can be "blue", "brown", "cyan", "magenta", "orange", "green", "white", or "yellow".
+    Variables: 
+        time -> float, will be the length of time it will be unaffected by pulse.
+        color -> string, will be the color that the mushroom should be lit up.

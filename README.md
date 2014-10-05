@@ -8,15 +8,16 @@ Adding a new Module
 
 1. Once you have created the module, import the packages you will need from the folder called 'erf'. (To import, go to file->import). Required Packages:
 
-  * MR_dinger
-  * MR_camera
-  * MR_intro_scripts
-  * MR_objects_to_ding
+  * MR_dinger            (6 scripts, 1 placeable)
+  * MR_camera            (2 scripts)
+  * MR_intro_scripts     (2 scripts, 1 trigger)
+  * MR_objects_to_ding   (6 placeables)
 
 2. Add the needed hakpaks to the module, using Edit->Module Properties, tab "Custom Content". Required Hakpaks:
 
   * MR_dinger
   * MR_remove_ui
+  * MR_sounds
   * JacobysJungle
   * Jungle Creatures
   * Jungle Sound
