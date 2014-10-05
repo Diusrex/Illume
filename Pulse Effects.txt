@@ -12,3 +12,10 @@ Effect Tag: light_switch
     Variables: 
         time -> float, will be the length of time it will stay lit.
         color -> string, will be the color that the mushroom should be lit up.
+
+Effect Tag: blink
+    Requirements: The object MUST NOT BE STATIC (placeables are this by default).
+    Effect: Will have the object glow the given color twice. The color can be set, or it can instead choose a random color and stick with that color.
+        The number of blinks can be changed in the script. If we find that it is often wanted to be change, can instead have it be a variable on the object.
+    Variables:
+        (optional) color -> string, will be the color that the mushroom should be lit up.
