@@ -8,10 +8,10 @@ Adding a new Module
 
 1. Once you have created the module, import the packages you will need from the folder called 'erf'. (To import, go to file->import). Required Packages:
 
-  * MR_camera            (2 scripts)
-  * MR_ding_objects      (6 placeables)
-  * MR_dinger            (6 scripts, 1 placeable)
-  * MR_lantern_intro     (2 scripts, 1 trigger)
+  * MR_camera
+  * MR_ding_objects
+  * MR_dinger
+  * MR_lantern
 
 2. Add the needed hakpaks to the module, using Edit->Module Properties, tab "Custom Content". Required Hakpaks:
 
@@ -25,6 +25,16 @@ Adding a new Module
 3. Edit the scripts ran by the Module (under Edit->Module Properties, tab "Events"):
   * OnClientEnter should use the script 'enter_module'
   * OnPlayerChat should use the script 'activate_pulse'
+
+4. Add all of the scripts imported by MR_dinger.erf to the cache (under Edit->Module Properties, tab "Cached Scripts").
+
+Intro lantern sequence
+--------
+
+1. To set up the intro sequence with the lantern, change the OnClientEnter Module script from 'enter_module' to 'lantern_create'.
+
+2. In the palette on the right side of the toolset, when in an area, click the "Paint Triggers" button, then navigate to Custom->Special->Custom 1
+   and place the 'Lantern Death' trigger in the area you would like the player's lantern to die.
 
 Adding a new Area
 --------
