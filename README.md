@@ -11,7 +11,7 @@ Adding a new Module
   * MR_camera            (2 scripts)
   * MR_ding_objects      (6 placeables)
   * MR_dinger            (6 scripts, 1 placeable)
-  * MR_intro_scripts     (2 scripts, 1 trigger)
+  * MR_lantern_intro     (2 scripts, 1 trigger)
 
 2. Add the needed hakpaks to the module, using Edit->Module Properties, tab "Custom Content". Required Hakpaks:
 
