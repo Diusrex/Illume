@@ -18,6 +18,7 @@
 ========================================================================
 | MR_lantern      | lantern_create   |                 | lantern_death |
 |                 | lantern_death    |                 |               |
+|                 | lantern_finish   |                 |               |
 ========================================================================
 | MR_ding_objects |                  | m_beacon        |               |
 |                 |                  | m_blink         |               |
