@@ -5,14 +5,16 @@
 ========================================================================
 | MR_dinger       | activate_pulse   | pulse_center    |               |
 |                 | aoe_of_pulse     |                 |               |
-|                 | color            |                 |               |
 |                 | enable_pulseable |                 |               |
 |                 | enter_module     |                 |               |
 |                 | pulse_effect     |                 |               |
+|                 | support_blink    |                 |               |
+|                 | support_color    |                 |               |
+|                 | support_sound    |                 |               |
+|                 | turn_on_beacons  |                 |               |
 ========================================================================
 | MR_camera       | cmd_cam_topdown  |                 |               |
 |                 | enter_area       |                 |               |
-|                 | turn_on_beacons  |                 |               |
 ========================================================================
 | MR_lantern      | lantern_create   |                 | lantern_death |
 |                 | lantern_death    |                 |               |
