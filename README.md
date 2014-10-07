@@ -28,6 +28,10 @@ Adding a new Module
 
 4. Add all of the scripts imported by MR_dinger.erf to the cache (under Edit->Module Properties, tab "Cached Scripts").
 
+5. From the 'localvault' folder, ensure that the character is copied over into the 'localvault' folder in your NWN directory.
+
+NOTE: If you are going to play an already configured module from the repository, you only need to ensure the character and needed hakpaks are in your NWN directory.
+
 Intro lantern sequence
 --------
 
