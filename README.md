@@ -11,7 +11,7 @@ Adding a new Module
   * MR_camera
   * MR_ding_objects
   * MR_dinger
-  * MR_lantern
+  * MR_tutorial
 
 2. Add the needed hakpaks to the module, using Edit->Module Properties, tab "Custom Content". Required Hakpaks:
 
@@ -32,13 +32,10 @@ Adding a new Module
 
 NOTE: If you are going to play an already configured module from the repository, you only need to ensure the character and needed hakpaks are in your NWN directory.
 
-Intro lantern sequence
+Intro tutorial
 --------
 
-1. To set up the intro sequence with the lantern, change the OnClientEnter Module script from 'enter_module' to 'lantern_create'.
-
-2. In the palette on the right side of the toolset, when in an area, click the "Paint Triggers" button, then navigate to Custom->Special->Custom 1
-   and place the 'Lantern Death' trigger in the area you would like the player's lantern to die.
+1. To set up the intro tutorial, change the OnClientEnter Module script from 'enter_module' to 'tutorial_start'.
 
 Adding a new Area
 --------

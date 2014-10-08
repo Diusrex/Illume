@@ -16,9 +16,8 @@
 | MR_camera       | cmd_cam_topdown  |                 |               |
 |                 | enter_area       |                 |               |
 ========================================================================
-| MR_lantern      | lantern_create   |                 | lantern_death |
-|                 | lantern_death    |                 |               |
-|                 | lantern_finish   |                 |               |
+| MR_tutorial     | tutorial_end     |                 |               |
+|                 | tutorial_start   |                 |               |
 ========================================================================
 | MR_ding_objects |                  | m_beacon        |               |
 |                 |                  | m_blink         |               |
