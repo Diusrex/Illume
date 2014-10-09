@@ -17,8 +17,22 @@ Effect Tag: light_switch
 
 Effect Tag: blink
     Requirements: The object MUST NOT BE STATIC (placeables are this by default).
-    Effect: Will have the object glow the given color twice. The color can be set, or it can instead choose a random color and stick with that color.
-        The number of blinks can be changed in the script. If we find that it is often wanted to be change, can instead have it be a variable on the object.
+    Effect: Will have the object glow the given color twice. The color can be set, or it can instead choose a random color and stick with that color. The
+            number of blinks can be changed in the script. If we find that it is often wanted to be change, can instead have it be a variable on the object.
     Variables:
         (optional) color -> string, will be the color that the mushroom should be lit up.
                             (can be "blue", "brown", "cyan", "green", "magenta", "orange", "red", "white", or "yellow")
+
+Effect Tag: scannable
+    Requirements: The object MUST NOT BE STATIC (placeables are this by default). The object's tag must be "scannableObject".
+    Effect: The object will have descriptive text appear above it.
+    Variables:
+        text -> string, the entire text to appear above it.
+
+Effect Tag: audio_log
+    Requirements: The object MUST NOT BE STATIC (placeables are this by default). The object's tag must be "scannableObject". The object's name must
+                  be "Audio Log #", where "#" is the same as the variable "log_number" (described below).
+    Effect: Will play an audio log sound file.
+    Variables:
+        log_number -> int, the number of the audio log file to play.
+        time -> float, an amount a little bit larger than the length of the audio file, to prevent file from being played on top of itself.

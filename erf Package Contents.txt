@@ -1,30 +1,34 @@
-========================================================================
-|                 |                  |                 |               |
-|  .erf Filename  |      Scripts     |   Placeables    |   Triggers    |
-|                 |                  |                 |               |
-========================================================================
-| MR_dinger       | activate_pulse   | pulse_center    |               |
-|                 | aoe_of_pulse     |                 |               |
-|                 | enable_pulseable |                 |               |
-|                 | enter_module     |                 |               |
-|                 | pulse_effect     |                 |               |
-|                 | support_blink    |                 |               |
-|                 | support_color    |                 |               |
-|                 | support_sound    |                 |               |
-|                 | turn_on_beacons  |                 |               |
-========================================================================
-| MR_camera       | cmd_cam_topdown  |                 |               |
-|                 | enter_area       |                 |               |
-========================================================================
-| MR_tutorial     | tutorial_end     |                 |               |
-|                 | tutorial_start   |                 |               |
-========================================================================
-| MR_ding_objects |                  | m_beacon        |               |
-|                 |                  | m_blink         |               |
-|                 |                  | m_light_blue    |               |
-|                 |                  | m_light_cyan    |               |
-|                 |                  | m_light_green   |               |
-|                 |                  | m_light_magenta |               |
-|                 |                  | m_light_red     |               |
-|                 |                  | m_light_yellow  |               |
-========================================================================
+==========================================================================================
+|                 |                   |                  |              |                |
+|  .erf Filename  |      Scripts      |    Placeables    |    Sounds    |    Triggers    |
+|                 |                   |                  |              |                |
+==========================================================================================
+| MR_dinger       | activate_pulse    | pulse_center     |              |                |
+|                 | aoe_of_pulse      |                  |              |                |
+|                 | enable_pulseable  |                  |              |                |
+|                 | enter_module      |                  |              |                |
+|                 | pulse_effect      |                  |              |                |
+|                 | scannable_pulse   |                  |              |                |
+|                 | support_blink     |                  |              |                |
+|                 | support_color     |                  |              |                |
+|                 | support_sound     |                  |              |                |
+|                 | turn_on_effects   |                  |              |                |
+==========================================================================================
+| MR_camera       | cmd_cam_topdown   |                  |              |                |
+|                 | enter_area        |                  |              |                |
+==========================================================================================
+| MR_tutorial     | tutorial_end      |                  |              |                |
+|                 | tutorial_start    |                  |              |                |
+==========================================================================================
+| MR_audio_log    | play_audio_log    | audio_log_1      | log_1_sound  | log_1_trigger  |
+==========================================================================================
+| MR_ding_objects |                   | m_beacon         |              |                |
+|                 |                   | m_blink          |              |                |
+|                 |                   | m_light_blue     |              |                |
+|                 |                   | m_light_cyan     |              |                |
+|                 |                   | m_light_green    |              |                |
+|                 |                   | m_light_magenta  |              |                |
+|                 |                   | m_light_red      |              |                |
+|                 |                   | m_light_yellow   |              |                |
+|                 |                   | scannable_brush  |              |                |
+==========================================================================================
