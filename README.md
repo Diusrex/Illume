@@ -18,6 +18,7 @@ Adding a new Module
   * MR_dinger
   * MR_remove_ui
   * MR_sounds
+  * MR_models
   * JacobysJungle
   * Jungle Creatures
   * Jungle Sound

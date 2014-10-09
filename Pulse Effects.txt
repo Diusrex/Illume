@@ -8,10 +8,12 @@ Effect Tag: torch
 
 Effect Tag: light_switch
     Requirements: The object MUST NOT BE STATIC (placeables are this by default).
-    Effect: Will have the object glow and emit a light and pulse. Can be "blue", "brown", "cyan", "magenta", "orange", "green", "white", or "yellow".
-    Variables: 
+    Effect: Will have the object glow and emit a light and pulse.
+    Variables:
         time -> float, will be the length of time it will stay lit.
         color -> string, will be the color that the mushroom should be lit up.
+                 (can be "blue", "brown", "cyan", "green", "magenta", "orange", "red", "white", or "yellow")
+        sound -> string, will be the sound the mushroom will make upon lighting up.
 
 Effect Tag: blink
     Requirements: The object MUST NOT BE STATIC (placeables are this by default).
@@ -19,3 +21,4 @@ Effect Tag: blink
         The number of blinks can be changed in the script. If we find that it is often wanted to be change, can instead have it be a variable on the object.
     Variables:
         (optional) color -> string, will be the color that the mushroom should be lit up.
+                            (can be "blue", "brown", "cyan", "green", "magenta", "orange", "red", "white", or "yellow")

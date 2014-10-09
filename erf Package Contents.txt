@@ -21,9 +21,10 @@
 ========================================================================
 | MR_ding_objects |                  | m_beacon        |               |
 |                 |                  | m_blink         |               |
-|                 |                  | m_blue_light    |               |
-|                 |                  | m_brown_light   |               |
-|                 |                  | m_cyan_light    |               |
-|                 |                  | m_magenta_light |               |
-|                 |                  | m_orange_light  |               |
+|                 |                  | m_light_blue    |               |
+|                 |                  | m_light_cyan    |               |
+|                 |                  | m_light_green   |               |
+|                 |                  | m_light_magenta |               |
+|                 |                  | m_light_red     |               |
+|                 |                  | m_light_yellow  |               |
 ========================================================================
