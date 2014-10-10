@@ -8,8 +8,8 @@ Adding a new Module
 
 1. Once you have created the module, import the packages you will need from the folder called 'erf'. (To import, go to file->import). Required Packages:
 
+  * MR_area
   * MR_audio_log
-  * MR_camera
   * MR_ding_objects
   * MR_dinger
   * MR_tutorial

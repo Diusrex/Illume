@@ -12,10 +12,10 @@
 |                 | support_blink     |                  |              |                |
 |                 | support_color     |                  |              |                |
 |                 | support_sound     |                  |              |                |
-|                 | turn_on_effects   |                  |              |                |
 ==========================================================================================
-| MR_camera       | cmd_cam_topdown   |                  |              |                |
+| MR_area         | cmd_cam_topdown   |                  | weather_rain |                |
 |                 | enter_area        |                  |              |                |
+|                 | turn_on_effects   |                  |              |                |
 ==========================================================================================
 | MR_tutorial     | tutorial_end      |                  |              |                |
 |                 | tutorial_start    |                  |              |                |
