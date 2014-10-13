@@ -1,35 +1,52 @@
-Effect Tag: door
-    Requirements: Is a door like object.
-    Effect: Will open or close the door.
+For "color" variables there are 18 available settings:
+    - "blue"
+    - "blue_d"
+    - "blue_l"
+    - "brown"
+    - "cyan"
+    - "green"
+    - "green_d"
+    - "green_l"
+    - "magenta"
+    - "orange"
+    - "purple"
+    - "red"
+    - "red_d"
+    - "red_l"
+    - "white"
+    - "yellow"
+    - "yellow_d"
+    - "yellow_l"
 
-Effect Tag: torch
-    Requirements: Is an illuminatable object.
-    Effect: Will toggle the light's animation.
-
-Effect Tag: light_switch
+Effect Tag: "beacon"
     Requirements: The object MUST NOT BE STATIC (placeables are this by default).
-    Effect: Will have the object glow and emit a light and pulse.
+    Effect: Object will light up upon first pulse. When pulsed it will emit a pulse and hum for a period of time. Will emit a mini-pulse if currently making sound.
     Variables:
-        time -> float, will be the length of time it will stay lit.
+        time -> float, will be the length of time until it can be pulsed again, should be slightly longer than length of sound.
         color -> string, will be the color that the mushroom should be lit up.
-                 (can be "blue", "brown", "cyan", "green", "magenta", "orange", "red", "white", or "yellow")
-        sound -> string, will be the sound the mushroom will make upon lighting up.
 
-Effect Tag: blink
+Effect Tag: "note"
     Requirements: The object MUST NOT BE STATIC (placeables are this by default).
-    Effect: Will have the object glow the given color twice. The color can be set, or it can instead choose a random color and stick with that color. The
-            number of blinks can be changed in the script. If we find that it is often wanted to be change, can instead have it be a variable on the object.
+    Effect: Object will light up upon first pulse. When pulsed it will emit a pulse and play a note. Will emit a mini-pulse if currently making sound.
     Variables:
-        (optional) color -> string, will be the color that the mushroom should be lit up.
-                            (can be "blue", "brown", "cyan", "green", "magenta", "orange", "red", "white", or "yellow")
+        time -> float, will be the length of time until it can be pulsed again, should be slightly longer than length of sound.
+        color -> string, will be the color that the mushroom should be lit up.
+        sound -> string, will be the sound note to play (can be "note_A_below", "note_B_above", "note_C", "note_D_above", "note_F_below", or "note_G_above").
 
-Effect Tag: scannable
+Effect Tag: "drum", or "double", or "triple", or "bunch"
+    Requirements: The object MUST NOT BE STATIC (placeables are this by default).
+    Effect: Object will light up upon first pulse. When pulsed it will emit a pulse and pick a sound from a set to play, and use that
+            sound for all future pulses. Will emit a mini-pulse if pulsed quickly after previous pulse.
+    Variables:
+        color -> string, will be the color that the mushroom should be lit up.
+
+Effect Tag: "scannable"
     Requirements: The object MUST NOT BE STATIC (placeables are this by default). The object's tag must be "scannableObject".
     Effect: The object will have descriptive text appear above it.
     Variables:
         text -> string, the entire text to appear above it.
 
-Effect Tag: audio_log
+Effect Tag: "audio_log"
     Requirements: The object MUST NOT BE STATIC (placeables are this by default). The object's tag must be "scannableObject". The object's name must
                   be "Audio Log #", where "#" is the same as the variable "log_number" (described below).
     Effect: Will play an audio log sound file.

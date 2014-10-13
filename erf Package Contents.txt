@@ -5,11 +5,9 @@
 ==========================================================================================
 | MR_dinger       | activate_pulse    | pulse_center     |              |                |
 |                 | aoe_of_pulse      |                  |              |                |
-|                 | enable_pulseable  |                  |              |                |
 |                 | enter_module      |                  |              |                |
 |                 | pulse_effect      |                  |              |                |
 |                 | scannable_pulse   |                  |              |                |
-|                 | support_blink     |                  |              |                |
 |                 | support_color     |                  |              |                |
 |                 | support_sound     |                  |              |                |
 ==========================================================================================
