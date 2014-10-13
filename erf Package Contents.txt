@@ -21,12 +21,15 @@
 | MR_audio_log    | play_audio_log    | audio_log_1      | log_1_sound  | log_1_trigger  |
 ==========================================================================================
 | MR_ding_objects |                   | m_beacon         |              |                |
-|                 |                   | m_blink          |              |                |
-|                 |                   | m_light_blue     |              |                |
-|                 |                   | m_light_cyan     |              |                |
-|                 |                   | m_light_green    |              |                |
-|                 |                   | m_light_magenta  |              |                |
-|                 |                   | m_light_red      |              |                |
-|                 |                   | m_light_yellow   |              |                |
+|                 |                   | m_bunch          |              |                |
+|                 |                   | m_double         |              |                |
+|                 |                   | m_drum           |              |                |
+|                 |                   | m_note_blue      |              |                |
+|                 |                   | m_note_brown     |              |                |
+|                 |                   | m_note_green     |              |                |
+|                 |                   | m_note_red       |              |                |
+|                 |                   | m_note_white     |              |                |
+|                 |                   | m_note_yellow    |              |                |
+|                 |                   | m_triple         |              |                |
 |                 |                   | scannable_brush  |              |                |
 ==========================================================================================
