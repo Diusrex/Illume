@@ -3,7 +3,7 @@
 |  .erf Filename  |      Scripts      |    Placeables    |    Sounds    |    Triggers    |
 |                 |                   |                  |              |                |
 ==========================================================================================
-| MR_dinger       | activate_pulse    | pulse_center     | weather_rain |                |
+| MR_dinger       | activate_pulse    | pulse_center     |              |                |
 |                 | aoe_of_pulse      |                  |              |                |
 |                 | cmd_cam_topdown   |                  |              |                |
 |                 | enter_area        |                  |              |                |
@@ -17,7 +17,7 @@
 ==========================================================================================
 | MR_audio_log    | play_audio_log    | audio_log_1      | log_1_sound  | log_1_trigger  |
 ==========================================================================================
-| MR_ding_objects |                   | m_beacon         |              |                |
+| MR_environment  | end_module        | m_beacon         | weather_rain |                |
 |                 |                   | m_bunch          |              |                |
 |                 |                   | m_double         |              |                |
 |                 |                   | m_drum           |              |                |
