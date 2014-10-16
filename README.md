@@ -8,7 +8,6 @@ Adding a new Module
 
 1. Once you have created the module, import the packages you will need from the folder called 'erf'. (To import, go to file->import). Required Packages:
 
-  * MR_area
   * MR_audio_log
   * MR_ding_objects
   * MR_dinger
@@ -25,7 +24,6 @@ Adding a new Module
   * Jungle Sound
 
 3. Edit the scripts ran by the Module (under Edit->Module Properties, tab "Events"):
-  * OnClientEnter should use the script 'enter_module'
   * OnPlayerChat should use the script 'activate_pulse'
 
 4. Add all of the scripts imported by MR_dinger.erf to the cache (under Edit->Module Properties, tab "Cached Scripts").
@@ -34,16 +32,15 @@ Adding a new Module
 
 NOTE: If you are going to play an already configured module from the repository, you only need to ensure the character and needed hakpaks are in your NWN directory.
 
-Intro tutorial
---------
-
-1. To set up the intro tutorial, change the OnClientEnter Module script from 'enter_module' to 'tutorial_start'.
-
 Adding a new Area
 --------
 
-1. To set up the camera, edit the OnEnter event of the area to use the script 'enter_area'. If this script
-   is not available, import the script package 'MR_camera', which should be in the scripts folder.
+1. To set up the camera, edit the OnEnter event of the area to use the script 'enter_area'.
+
+Intro tutorial
+--------
+
+1. To set up the intro tutorial, change the OnEnter event of the area from 'enter_area' to 'tutorial_start'.
 
 Adding a dingable object
 --------

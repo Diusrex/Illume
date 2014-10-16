@@ -3,16 +3,13 @@
 |  .erf Filename  |      Scripts      |    Placeables    |    Sounds    |    Triggers    |
 |                 |                   |                  |              |                |
 ==========================================================================================
-| MR_dinger       | activate_pulse    | pulse_center     |              |                |
+| MR_dinger       | activate_pulse    | pulse_center     | weather_rain |                |
 |                 | aoe_of_pulse      |                  |              |                |
-|                 | enter_module      |                  |              |                |
+|                 | cmd_cam_topdown   |                  |              |                |
+|                 | enter_area        |                  |              |                |
 |                 | pulse_effect      |                  |              |                |
-|                 | scannable_pulse   |                  |              |                |
 |                 | support_color     |                  |              |                |
 |                 | support_sound     |                  |              |                |
-==========================================================================================
-| MR_area         | cmd_cam_topdown   |                  | weather_rain |                |
-|                 | enter_area        |                  |              |                |
 |                 | turn_on_effects   |                  |              |                |
 ==========================================================================================
 | MR_tutorial     | tutorial_end      |                  |              |                |
@@ -24,6 +21,7 @@
 |                 |                   | m_bunch          |              |                |
 |                 |                   | m_double         |              |                |
 |                 |                   | m_drum           |              |                |
+|                 |                   | m_note           |              |                |
 |                 |                   | m_note_blue      |              |                |
 |                 |                   | m_note_brown     |              |                |
 |                 |                   | m_note_green     |              |                |
@@ -31,5 +29,6 @@
 |                 |                   | m_note_white     |              |                |
 |                 |                   | m_note_yellow    |              |                |
 |                 |                   | m_triple         |              |                |
+|                 |                   | scannable_branch |              |                |
 |                 |                   | scannable_brush  |              |                |
 ==========================================================================================
