@@ -17,8 +17,8 @@
 ==========================================================================================
 | MR_audio_log    | play_audio_log    | audio_log_1      | log_1_sound  | log_1_trigger  |
 ==========================================================================================
-| MR_environment  | end_module        | m_beacon         | weather_rain |                |
-|                 |                   | m_bunch          |              |                |
+| MR_environment  | cmd_cam_switch    | m_beacon         | weather_rain | puzzle_camera  |
+|                 | end_module        | m_bunch          |              | topdown_camera |
 |                 |                   | m_double         |              |                |
 |                 |                   | m_drum           |              |                |
 |                 |                   | m_note           |              |                |
@@ -31,4 +31,9 @@
 |                 |                   | m_triple         |              |                |
 |                 |                   | scannable_branch |              |                |
 |                 |                   | scannable_brush  |              |                |
+==========================================================================================
+| MR_step_stones  | ss_aoe_of_pulse   | ss_gong          |              |                |
+|                 | ss_pulse_effect   | ss_pedestal_on   |              |                |
+|                 |                   | ss_pedestal_vary |              |                |
+|                 |                   | ss_platform      |              |                |
 ==========================================================================================

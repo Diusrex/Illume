@@ -9,8 +9,9 @@ Adding a new Module
 1. Once you have created the module, import the packages you will need from the folder called 'erf'. (To import, go to file->import). Required Packages:
 
   * MR_audio_log
-  * MR_ding_objects
   * MR_dinger
+  * MR_environment
+  * MR_step_stones
   * MR_tutorial
 
 2. Add the needed hakpaks to the module, using Edit->Module Properties, tab "Custom Content". Required Hakpaks:
