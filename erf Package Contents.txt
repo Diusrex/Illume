@@ -9,6 +9,7 @@
 |                 | enter_area        |                  |              |                |
 |                 | pulse_effect      |                  |              |                |
 |                 | support_color     |                  |              |                |
+|                 | support_effects   |                  |              |                |
 |                 | support_sound     |                  |              |                |
 |                 | turn_on_effects   |                  |              |                |
 ==========================================================================================
