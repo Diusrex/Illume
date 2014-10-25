@@ -38,6 +38,8 @@ Adding a new Area
 
 1. To set up the camera, edit the OnEnter event of the area to use the script 'enter_area'.
 
+2. To disable resting, go to the "Area Properties" tab 'Advanced', and check the option "No Rest"
+
 Intro tutorial
 --------
 
