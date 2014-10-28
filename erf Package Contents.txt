@@ -16,10 +16,14 @@
 | MR_tutorial     | tutorial_end      |                  |              |                |
 |                 | tutorial_start    |                  |              |                |
 ==========================================================================================
-| MR_audio_log    | play_audio_log    | audio_log_1      | log_1_sound  | log_1_trigger  |
+| MR_audio_log    | log_1_subtitles   | audio_log_1      | log_1_sound  | log_1_trigger  |
+|                 | play_audio_log    |                  |              |                |
 ==========================================================================================
-| MR_environment  | cmd_cam_switch    | m_beacon         | weather_rain | puzzle_camera  |
-|                 | end_module        | m_bunch          |              | topdown_camera |
+| MR_misc         | cmd_cam_switch    | scannable_branch | weather_rain | puzzle_camera  |
+|                 | end_module        | scannable_brush  |              | topdown_camera |
+==========================================================================================
+| MR_mushrooms    |                   | m_beacon         |              |                |
+|                 |                   | m_bunch          |              |                |
 |                 |                   | m_double         |              |                |
 |                 |                   | m_drum           |              |                |
 |                 |                   | m_note           |              |                |
@@ -30,14 +34,24 @@
 |                 |                   | m_note_white     |              |                |
 |                 |                   | m_note_yellow    |              |                |
 |                 |                   | m_triple         |              |                |
-|                 |                   | scannable_branch |              |                |
-|                 |                   | scannable_brush  |              |                |
 ==========================================================================================
-| MR_step_stones  | ss_aoe_of_pulse   | ss_gong          |              |                |
-|                 | ss_pulse_effect   | ss_pedestal_on   |              |                |
-|                 |                   | ss_pedestal_vary |              |                |
-|                 |                   | ss_platform      |              |                |
+|                                                                                        |
+|                               Module Specific .erf Files                               |
+|                                                                                        |
 ==========================================================================================
-| MR_melody       | mel_pulse_effect  | m_melody         |              |                |
-|                 |                   | melody_obelisk   |              |                |
+| MR_melody       | mel_pulse_effect  | mel_crystal      |              |                |
+|                 |                   | mel_urn          |              |                |
+==========================================================================================
+| MR_floor_lu     | flu_pulse_effect  | flu_obel_green   |              |                |
+|                 |                   | flu_obel_white   |              |                |
+|                 |                   | flu_urn_five     |              |                |
+|                 |                   | flu_urn_four     |              |                |
+|                 |                   | flu_urn_one      |              |                |
+|                 |                   | flu_urn_three    |              |                |
+|                 |                   | flu_urn_two      |              |                |
+==========================================================================================
+| MR_echo         | ech_aoe_of_pulse  | ech_gong         |              |                |
+|                 | ech_pulse_effect  | ech_ped_on       |              |                |
+|                 |                   | ech_ped_vary     |              |                |
+|                 |                   | ech_platform     |              |                |
 ==========================================================================================
