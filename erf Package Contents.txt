@@ -50,8 +50,9 @@
 |                 |                   | flu_urn_three    |              |                |
 |                 |                   | flu_urn_two      |              |                |
 ==========================================================================================
-| MR_echo         | ech_aoe_of_pulse  | ech_gong         |              |                |
+| MR_echo         | ech_aoe_of_pulse  | ech_crystal      |              |                |
 |                 | ech_pulse_effect  | ech_ped_on       |              |                |
 |                 |                   | ech_ped_vary     |              |                |
 |                 |                   | ech_platform     |              |                |
+|                 |                   | ech_urn          |              |                |
 ==========================================================================================
