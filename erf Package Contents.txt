@@ -3,9 +3,9 @@
 |  .erf Filename  |      Scripts      |   Creatures   |    Placeables    |    Sounds    |     Triggers     |  Waypoints  |
 |                 |                   |               |                  |              |                  |             |
 ==========================================================================================================================
-| MR_dinger       | activate_pulse    |               | pulse_center     |              |                  |             |
-|                 | aoe_of_pulse      |               |                  |              |                  |             |
-|                 | cmd_cam_topdown   |               |                  |              |                  |             |
+| MR_dinger       | activate_pulse    |               | audio_log_center |              |                  |             |
+|                 | aoe_of_pulse      |               | pulse_center     |              |                  |             |
+|                 | cmd_cam_topdown   |               | scan_center      |              |                  |             |
 |                 | enter_area        |               |                  |              |                  |             |
 |                 | pulse_effect      |               |                  |              |                  |             |
 |                 | support_color     |               |                  |              |                  |             |
@@ -23,8 +23,8 @@
 |                 | log_5_subtitles   |               | audio_log_5      | log_5_sound  | log_5_trigger    |             |
 |                 | play_audio_log    |               |                  |              |                  |             |
 ==========================================================================================================================
-| MR_misc         | cmd_cam_switch    | willowisp001  | scannable_branch | weather_rain | puzzle_camera    |             |
-|                 | end_module        |               | scannable_brush  |              | topdown_camera   |             |
+| MR_misc         | cmd_cam_switch    | willowisp001  | scan_paint_brush | weather_rain | puzzle_camera    |             |
+|                 | end_module        |               | scan_tree_branch |              | topdown_camera   |             |
 ==========================================================================================================================
 | MR_mushrooms    |                   |               | m_beacon         |              |                  |             |
 |                 |                   |               | m_bunch          |              |                  |             |
@@ -45,6 +45,7 @@
 |                 |                   |               |                  |              |                  | convo_2_1   |
 |                 |                   |               |                  |              |                  | convo_2_2   |
 |                 |                   |               |                  |              |                  | convo_2_3   |
+|                 |                   |               |                  |              |                  | convo_2_4   |
 |                 |                   |               |                  |              |                  | convo_3_1   |
 |                 |                   |               |                  |              |                  | convo_3_2   |
 |                 |                   |               |                  |              |                  | convo_3_3   |
