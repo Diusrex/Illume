@@ -5,7 +5,7 @@
 ==========================================================================================================================
 | MR_dinger       | activate_pulse    |               | audio_log_center |              |                  |             |
 |                 | aoe_of_pulse      |               | pulse_center     |              |                  |             |
-|                 | cmd_cam_topdown   |               | scan_center      |              |                  |             |
+|                 | cmd_cam_topdown   |               | scannable_center |              |                  |             |
 |                 | enter_area        |               |                  |              |                  |             |
 |                 | pulse_effect      |               |                  |              |                  |             |
 |                 | support_color     |               |                  |              |                  |             |
@@ -23,8 +23,16 @@
 |                 | log_5_subtitles   |               | audio_log_5      | log_5_sound  | log_5_trigger    |             |
 |                 | play_audio_log    |               |                  |              |                  |             |
 ==========================================================================================================================
-| MR_misc         | cmd_cam_switch    | willowisp001  | scan_paint_brush | weather_rain | puzzle_camera    |             |
-|                 | end_module        |               | scan_tree_branch |              | topdown_camera   |             |
+| MR_misc         | cmd_cam_switch    | willowisp001  | scan_beak_rock   | weather_rain | puzzle_camera    |             |
+|                 | end_module        |               | scan_bird_tile   |              | topdown_camera   |             |
+|                 |                   |               | scan_buzz_sound  |              |                  |             |
+|                 |                   |               | scan_garment     |              |                  |             |
+|                 |                   |               | scan_metal_gizmo |              |                  |             |
+|                 |                   |               | scan_paint_brush |              |                  |             |
+|                 |                   |               | scan_telescope   |              |                  |             |
+|                 |                   |               | scan_tree_branch |              |                  |             |
+|                 |                   |               | scan_wall_gears  |              |                  |             |
+|                 |                   |               | scan_wall_marks  |              |                  |             |
 ==========================================================================================================================
 | MR_mushrooms    |                   |               | m_beacon         |              |                  |             |
 |                 |                   |               | m_bunch          |              |                  |             |
