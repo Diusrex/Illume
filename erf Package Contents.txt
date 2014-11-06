@@ -13,9 +13,6 @@
 |                 | support_sound     |               |                  |              |                  |             |
 |                 | turn_on_effects   |               |                  |              |                  |             |
 ==========================================================================================================================
-| MR_tutorial     | tutorial_end      |               |                  |              |                  |             |
-|                 | tutorial_start    |               |                  |              |                  |             |
-==========================================================================================================================
 | MR_audio_log    | log_1_subtitles   |               | audio_log_1      | log_1_sound  | log_1_trigger    |             |
 |                 | log_2_subtitles   |               | audio_log_2      | log_2_sound  | log_2_trigger    |             |
 |                 | log_3_subtitles   |               | audio_log_3      | log_3_sound  | log_3_trigger    |             |
@@ -23,7 +20,7 @@
 |                 | log_5_subtitles   |               | audio_log_5      | log_5_sound  | log_5_trigger    |             |
 |                 | play_audio_log    |               |                  |              |                  |             |
 ==========================================================================================================================
-| MR_misc         | cmd_cam_switch    | willowisp001  | scan_beak_rock   | weather_rain | puzzle_camera    |             |
+| MR_misc         | cmd_cam_switch    |               | scan_beak_rock   | weather_rain | puzzle_camera    |             |
 |                 | end_module        |               | scan_bird_tile   |              | topdown_camera   |             |
 |                 |                   |               | scan_buzz_sound  |              |                  |             |
 |                 |                   |               | scan_garment     |              |                  |             |
@@ -47,8 +44,15 @@
 |                 |                   |               | m_note_yellow    |              |                  |             |
 |                 |                   |               | m_triple         |              |                  |             |
 ==========================================================================================================================
+|                                                                                                                        |
+|                                               Module Specific .erf Files                                               |
+|                                                                                                                        |
+==========================================================================================================================
+| MR_tutorial     | tutorial_end      |               |                  |              |                  |             |
+|                 | tutorial_start    |               |                  |              |                  |             |
+==========================================================================================================================
 | MR_tabitha      | tabitha_convo     | tabitha_raya  |                  |              | tabitha_convo_1  | convo_1_1   |
-|                 |                   |               |                  |              | tabitha_convo_2  | convo_1_2   |
+|                 |                   | wisp_ghost    |                  |              | tabitha_convo_2  | convo_1_2   |
 |                 |                   |               |                  |              | tabitha_convo_3  | convo_1_3   |
 |                 |                   |               |                  |              |                  | convo_2_1   |
 |                 |                   |               |                  |              |                  | convo_2_2   |
@@ -59,7 +63,7 @@
 |                 |                   |               |                  |              |                  | convo_3_3   |
 ==========================================================================================================================
 |                                                                                                                        |
-|                                               Module Specific .erf Files                                               |
+|                                               Puzzle Specific .erf Files                                               |
 |                                                                                                                        |
 ==========================================================================================================================
 | MR_melody       | mel_pulse_effect  |               | mel_crystal      |              |                  |             |
