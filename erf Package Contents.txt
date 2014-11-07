@@ -6,7 +6,7 @@
 | MR_dinger       | activate_pulse    |               | audio_log_center |              |                  |             |
 |                 | aoe_of_pulse      |               | pulse_center     |              |                  |             |
 |                 | cmd_cam_topdown   |               | scannable_center |              |                  |             |
-|                 | enter_area        |               |                  |              |                  |             |
+|                 | enter_area        |               | torch_center     |              |                  |             |
 |                 | pulse_effect      |               |                  |              |                  |             |
 |                 | support_color     |               |                  |              |                  |             |
 |                 | support_effects   |               |                  |              |                  |             |
@@ -43,6 +43,8 @@
 |                 |                   |               | m_note_white     |              |                  |             |
 |                 |                   |               | m_note_yellow    |              |                  |             |
 |                 |                   |               | m_triple         |              |                  |             |
+|                 |                   |               | t_lit            |              |                  |             |
+|                 |                   |               | t_unlit          |              |                  |             |
 ==========================================================================================================================
 |                                                                                                                        |
 |                                               Module Specific .erf Files                                               |
