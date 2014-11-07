@@ -53,9 +53,9 @@
 | MR_tutorial     | tutorial_end      |               |                  | intro_line   |                  |             |
 |                 | tutorial_start    |               |                  |              |                  |             |
 ==========================================================================================================================
-| MR_tabitha      | tabitha_convo     | tabitha_raya  |                  |              | tabitha_convo_1  | convo_1_1   |
-|                 |                   | wisp_ghost    |                  |              | tabitha_convo_2  | convo_1_2   |
-|                 |                   |               |                  |              | tabitha_convo_3  | convo_1_3   |
+| MR_tabitha      | tabitha_convo     | tabitha_raya  |                  | last_convo_1 | tabitha_convo_1  | convo_1_1   |
+|                 |                   | wisp_ghost    |                  | last_convo_2 | tabitha_convo_2  | convo_1_2   |
+|                 |                   |               |                  | last_convo_3 | tabitha_convo_3  | convo_1_3   |
 |                 |                   |               |                  |              |                  | convo_2_1   |
 |                 |                   |               |                  |              |                  | convo_2_2   |
 |                 |                   |               |                  |              |                  | convo_2_3   |
