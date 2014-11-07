@@ -20,12 +20,12 @@
 |                 | log_5_subtitles   |               | audio_log_5      | log_5_sound  | log_5_trigger    |             |
 |                 | play_audio_log    |               |                  |              |                  |             |
 ==========================================================================================================================
-| MR_misc         | cmd_cam_switch    |               | scan_beak_rock   | weather_rain | puzzle_camera    |             |
-|                 | end_module        |               | scan_bird_tile   |              | topdown_camera   |             |
-|                 |                   |               | scan_buzz_sound  |              |                  |             |
-|                 |                   |               | scan_garment     |              |                  |             |
-|                 |                   |               | scan_metal_gizmo |              |                  |             |
-|                 |                   |               | scan_paint_brush |              |                  |             |
+| MR_misc         | cmd_cam_switch    |               | scan_beak_rock   | scan_sound_1 | puzzle_camera    |             |
+|                 | end_module        |               | scan_bird_tile   | scan_sound_2 | topdown_camera   |             |
+|                 |                   |               | scan_buzz_sound  | scan_sound_3 |                  |             |
+|                 |                   |               | scan_garment     | scan_sound_4 |                  |             |
+|                 |                   |               | scan_metal_gizmo | scan_sound_5 |                  |             |
+|                 |                   |               | scan_paint_brush | weather_rain |                  |             |
 |                 |                   |               | scan_telescope   |              |                  |             |
 |                 |                   |               | scan_tree_branch |              |                  |             |
 |                 |                   |               | scan_wall_gears  |              |                  |             |
@@ -50,7 +50,7 @@
 |                                               Module Specific .erf Files                                               |
 |                                                                                                                        |
 ==========================================================================================================================
-| MR_tutorial     | tutorial_end      |               |                  |              |                  |             |
+| MR_tutorial     | tutorial_end      |               |                  | intro_line   |                  |             |
 |                 | tutorial_start    |               |                  |              |                  |             |
 ==========================================================================================================================
 | MR_tabitha      | tabitha_convo     | tabitha_raya  |                  |              | tabitha_convo_1  | convo_1_1   |
