@@ -1,7 +1,10 @@
 CMPUT-250
 =========
 
-All the required files for the project.
+Most of the required files for this project. 
+If you want to play anything other than the forest levels, you will need to also download the CEP hakpaks that we use from the google drive.
+They are in the file hak.7z, all you will need to do is extract the files from it, and then copy the two cep hak paks into the hak folder in NWN.
+They would be in the repository, but they are too large to be put on git.
 
 Adding a new Module
 ---------
