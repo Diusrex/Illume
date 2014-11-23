@@ -1,92 +1,99 @@
-==========================================================================================================================
-|                 |                   |               |                  |              |                  |             |
-|  .erf Filename  |      Scripts      |   Creatures   |    Placeables    |    Sounds    |     Triggers     |  Waypoints  |
-|                 |                   |               |                  |              |                  |             |
-==========================================================================================================================
-| MR_dinger       | activate_pulse    |               | audio_log_center |              |                  |             |
-|                 | aoe_of_pulse      |               | pulse_center     |              |                  |             |
-|                 | cmd_cam_topdown   |               | scannable_center |              |                  |             |
-|                 | enter_area        |               |                  |              |                  |             |
-|                 | pulse_effect      |               |                  |              |                  |             |
-|                 | support_color     |               |                  |              |                  |             |
-|                 | support_effects   |               |                  |              |                  |             |
-|                 | support_sound     |               |                  |              |                  |             |
-|                 | turn_on_effects   |               |                  |              |                  |             |
-==========================================================================================================================
-| MR_audio_log    | log_1_subtitles   |               | audio_log_1      | log_1_sound  | log_1_trigger    |             |
-|                 | log_2_subtitles   |               | audio_log_2      | log_2_sound  | log_2_trigger    |             |
-|                 | log_3_subtitles   |               | audio_log_3      | log_3_sound  | log_3_trigger    |             |
-|                 | log_4_subtitles   |               | audio_log_4      | log_4_sound  | log_4_trigger    |             |
-|                 | log_5_subtitles   |               | audio_log_5      | log_5_sound  | log_5_trigger    |             |
-|                 | play_audio_log    |               |                  |              |                  |             |
-==========================================================================================================================
-| MR_scannable    |                   |               | scan_beak_rock   | scan_sound_1 |                  |             |
-|                 |                   |               | scan_bird_tile   | scan_sound_2 |                  |             |
-|                 |                   |               | scan_buzz_sound  | scan_sound_3 |                  |             |
-|                 |                   |               | scan_garment     | scan_sound_4 |                  |             |
-|                 |                   |               | scan_metal_gizmo | scan_sound_5 |                  |             |
-|                 |                   |               | scan_paint_brush |              |                  |             |
-|                 |                   |               | scan_telescope   |              |                  |             |
-|                 |                   |               | scan_tree_branch |              |                  |             |
-|                 |                   |               | scan_wall_gears  |              |                  |             |
-|                 |                   |               | scan_wall_marks  |              |                  |             |
-==========================================================================================================================
-| MR_misc         | cmd_cam_switch    |               |                  | weather_rain | puzzle_camera    |             |
-|                 | end_module        |               |                  |              | topdown_camera   |             |
-|                 | keep_door_open    |               |                  |              |                  |             |
-==========================================================================================================================
-| MR_mushrooms    |                   |               | m_beacon         |              |                  |             |
-|                 |                   |               | m_bunch          |              |                  |             |
-|                 |                   |               | m_double         |              |                  |             |
-|                 |                   |               | m_drum           |              |                  |             |
-|                 |                   |               | m_note           |              |                  |             |
-|                 |                   |               | m_note_blue      |              |                  |             |
-|                 |                   |               | m_note_brown     |              |                  |             |
-|                 |                   |               | m_note_green     |              |                  |             |
-|                 |                   |               | m_note_red       |              |                  |             |
-|                 |                   |               | m_note_white     |              |                  |             |
-|                 |                   |               | m_note_yellow    |              |                  |             |
-|                 |                   |               | m_triple         |              |                  |             |
-==========================================================================================================================
-| MR_temple       |                   |               | t_lit            |              |                  |             |
-|                 |                   |               | t_unlit          |              |                  |             |
-==========================================================================================================================
-|                                                                                                                        |
-|                                               Module Specific .erf Files                                               |
-|                                                                                                                        |
-==========================================================================================================================
-| MR_tutorial     | tutorial_end      |               |                  | intro_line   |                  |             |
-|                 | tutorial_start    |               |                  |              |                  |             |
-==========================================================================================================================
-| MR_tabitha      | tabitha_convo     | tabitha_raya  |                  | last_convo_1 | tabitha_convo_1  | convo_1_1   |
-|                 |                   | wisp_ghost    |                  | last_convo_2 | tabitha_convo_2  | convo_1_2   |
-|                 |                   |               |                  | last_convo_3 | tabitha_convo_3  | convo_1_3   |
-|                 |                   |               |                  |              |                  | convo_2_1   |
-|                 |                   |               |                  |              |                  | convo_2_2   |
-|                 |                   |               |                  |              |                  | convo_2_3   |
-|                 |                   |               |                  |              |                  | convo_2_4   |
-|                 |                   |               |                  |              |                  | convo_3_1   |
-|                 |                   |               |                  |              |                  | convo_3_2   |
-|                 |                   |               |                  |              |                  | convo_3_3   |
-==========================================================================================================================
-|                                                                                                                        |
-|                                               Puzzle Specific .erf Files                                               |
-|                                                                                                                        |
-==========================================================================================================================
-| MR_melody       | mel_pulse_effect  |               | mel_crystal      |              |                  |             |
-|                 |                   |               | mel_urn          |              |                  |             |
-==========================================================================================================================
-| MR_floor_lu     | flu_pulse_effect  |               | flu_obel_green   |              |                  |             |
-|                 |                   |               | flu_obel_white   |              |                  |             |
-|                 |                   |               | flu_urn_five     |              |                  |             |
-|                 |                   |               | flu_urn_four     |              |                  |             |
-|                 |                   |               | flu_urn_one      |              |                  |             |
-|                 |                   |               | flu_urn_three    |              |                  |             |
-|                 |                   |               | flu_urn_two      |              |                  |             |
-==========================================================================================================================
-| MR_echo         | ech_aoe_of_pulse  |               | ech_crystal      |              |                  |             |
-|                 | ech_pulse_effect  |               | ech_ped_on       |              |                  |             |
-|                 |                   |               | ech_ped_vary     |              |                  |             |
-|                 |                   |               | ech_platform     |              |                  |             |
-|                 |                   |               | ech_urn          |              |                  |             |
-==========================================================================================================================
+==============================================================================================================================
+|                 |                   |               |                  |                  |                  |             |
+|  .erf Filename  |      Scripts      |   Creatures   |    Placeables    |      Sounds      |     Triggers     |  Waypoints  |
+|                 |                   |               |                  |                  |                  |             |
+==============================================================================================================================
+| MR_dinger       | activate_pulse    |               | audio_log_center |                  |                  |             |
+|                 | aoe_of_pulse      |               | pulse_center     |                  |                  |             |
+|                 | cmd_cam_topdown   |               | scannable_center |                  |                  |             |
+|                 | enter_area        |               |                  |                  |                  |             |
+|                 | pulse_effect      |               |                  |                  |                  |             |
+|                 | support_color     |               |                  |                  |                  |             |
+|                 | support_effects   |               |                  |                  |                  |             |
+|                 | support_sound     |               |                  |                  |                  |             |
+|                 | turn_on_effects   |               |                  |                  |                  |             |
+==============================================================================================================================
+| MR_audio_log    | log_1_subtitles   |               | audio_log_1      | log_1_sound      | log_1_trigger    |             |
+|                 | log_2_subtitles   |               | audio_log_2      | log_2_sound      | log_2_trigger    |             |
+|                 | log_3_subtitles   |               | audio_log_3      | log_3_sound      | log_3_trigger    |             |
+|                 | log_4_subtitles   |               | audio_log_4      | log_4_sound      | log_4_trigger    |             |
+|                 | log_5_subtitles   |               | audio_log_5      | log_5_sound      | log_5_trigger    |             |
+|                 | play_audio_log    |               |                  |                  |                  |             |
+==============================================================================================================================
+| MR_scannable    |                   |               | scan_beak_rock   | scan_sound_1     |                  |             |
+|                 |                   |               | scan_bird_tile   | scan_sound_2     |                  |             |
+|                 |                   |               | scan_buzz_sound  | scan_sound_3     |                  |             |
+|                 |                   |               | scan_garment     | scan_sound_4     |                  |             |
+|                 |                   |               | scan_metal_gizmo | scan_sound_5     |                  |             |
+|                 |                   |               | scan_paint_brush |                  |                  |             |
+|                 |                   |               | scan_telescope   |                  |                  |             |
+|                 |                   |               | scan_tree_branch |                  |                  |             |
+|                 |                   |               | scan_wall_gears  |                  |                  |             |
+|                 |                   |               | scan_wall_marks  |                  |                  |             |
+==============================================================================================================================
+| MR_misc         | cmd_cam_switch    |               |                  | temple_ambience  | puzzle_camera    |             |
+|                 | end_module        |               |                  | weather_rain     | topdown_camera   |             |
+|                 | keep_door_open    |               |                  |                  |                  |             |
+==============================================================================================================================
+| MR_mushrooms    |                   |               | m_beacon         |                  |                  |             |
+|                 |                   |               | m_bunch          |                  |                  |             |
+|                 |                   |               | m_double         |                  |                  |             |
+|                 |                   |               | m_drum           |                  |                  |             |
+|                 |                   |               | m_note           |                  |                  |             |
+|                 |                   |               | m_note_blue      |                  |                  |             |
+|                 |                   |               | m_note_brown     |                  |                  |             |
+|                 |                   |               | m_note_green     |                  |                  |             |
+|                 |                   |               | m_note_red       |                  |                  |             |
+|                 |                   |               | m_note_white     |                  |                  |             |
+|                 |                   |               | m_note_yellow    |                  |                  |             |
+|                 |                   |               | m_triple         |                  |                  |             |
+==============================================================================================================================
+| MR_temple       |                   |               | t_lit_a          |                  |                  |             |
+|                 |                   |               | t_lit_c          |                  |                  |             |
+|                 |                   |               | t_lit_d          |                  |                  |             |
+|                 |                   |               | t_lit_f          |                  |                  |             |
+|                 |                   |               | t_lit_g          |                  |                  |             |
+|                 |                   |               | t_unlit_a        |                  |                  |             |
+|                 |                   |               | t_unlit_c        |                  |                  |             |
+|                 |                   |               | t_unlit_d        |                  |                  |             |
+|                 |                   |               | t_unlit_f        |                  |                  |             |
+|                 |                   |               | t_unlit_g        |                  |                  |             |
+==============================================================================================================================
+|                                                                                                                            |
+|                                                 Module Specific .erf Files                                                 |
+|                                                                                                                            |
+==============================================================================================================================
+| MR_tutorial     | tutorial_end      |               |                  | intro_line       |                  |             |
+|                 | tutorial_start    |               |                  |                  |                  |             |
+==============================================================================================================================
+| MR_tabitha      | tabitha_convo     | tabitha_raya  |                  | last_convo_1     | tabitha_convo_1  | convo_1_1   |
+|                 |                   | wisp_ghost    |                  | last_convo_2     | tabitha_convo_2  | convo_1_2   |
+|                 |                   |               |                  | last_convo_3     | tabitha_convo_3  | convo_1_3   |
+|                 |                   |               |                  |                  |                  | convo_2_1   |
+|                 |                   |               |                  |                  |                  | convo_2_2   |
+|                 |                   |               |                  |                  |                  | convo_2_3   |
+|                 |                   |               |                  |                  |                  | convo_2_4   |
+|                 |                   |               |                  |                  |                  | convo_3_1   |
+|                 |                   |               |                  |                  |                  | convo_3_2   |
+|                 |                   |               |                  |                  |                  | convo_3_3   |
+==============================================================================================================================
+|                                                                                                                            |
+|                                                 Puzzle Specific .erf Files                                                 |
+|                                                                                                                            |
+==============================================================================================================================
+| MR_melody       | mel_pulse_effect  |               | mel_crystal      |                  |                  |             |
+|                 |                   |               | mel_urn          |                  |                  |             |
+==============================================================================================================================
+| MR_floor_lu     | flu_pulse_effect  |               | flu_obel_green   |                  |                  |             |
+|                 |                   |               | flu_obel_white   |                  |                  |             |
+|                 |                   |               | flu_urn_five     |                  |                  |             |
+|                 |                   |               | flu_urn_four     |                  |                  |             |
+|                 |                   |               | flu_urn_one      |                  |                  |             |
+|                 |                   |               | flu_urn_three    |                  |                  |             |
+|                 |                   |               | flu_urn_two      |                  |                  |             |
+==============================================================================================================================
+| MR_echo         | ech_aoe_of_pulse  |               | ech_crystal      |                  |                  |             |
+|                 | ech_pulse_effect  |               | ech_ped_on       |                  |                  |             |
+|                 |                   |               | ech_platform     |                  |                  |             |
+|                 |                   |               | ech_urn          |                  |                  |             |
+==============================================================================================================================
