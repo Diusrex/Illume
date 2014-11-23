@@ -8,7 +8,6 @@
 |                 | cmd_cam_topdown   |               | scannable_center |              |                  |             |
 |                 | enter_area        |               | torch_center     |              |                  |             |
 |                 | pulse_effect      |               |                  |              |                  |             |
-|                 | pulse_effect      |               |                  |              |                  |             |
 |                 | support_color     |               |                  |              |                  |             |
 |                 | support_effects   |               |                  |              |                  |             |
 |                 | support_sound     |               |                  |              |                  |             |
