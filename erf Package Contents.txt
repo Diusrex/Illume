@@ -6,7 +6,7 @@
 | MR_dinger       | activate_pulse    |               | audio_log_center |              |                  |             |
 |                 | aoe_of_pulse      |               | pulse_center     |              |                  |             |
 |                 | cmd_cam_topdown   |               | scannable_center |              |                  |             |
-|                 | enter_area        |               | torch_center     |              |                  |             |
+|                 | enter_area        |               |                  |              |                  |             |
 |                 | pulse_effect      |               |                  |              |                  |             |
 |                 | support_color     |               |                  |              |                  |             |
 |                 | support_effects   |               |                  |              |                  |             |
@@ -20,16 +20,20 @@
 |                 | log_5_subtitles   |               | audio_log_5      | log_5_sound  | log_5_trigger    |             |
 |                 | play_audio_log    |               |                  |              |                  |             |
 ==========================================================================================================================
-| MR_misc         | cmd_cam_switch    |               | scan_beak_rock   | scan_sound_1 | puzzle_camera    |             |
-|                 | end_module        |               | scan_bird_tile   | scan_sound_2 | topdown_camera   |             |
-|                 | keep_door_open    |               | scan_buzz_sound  | scan_sound_3 |                  |             |
+| MR_scannable    |                   |               | scan_beak_rock   | scan_sound_1 |                  |             |
+|                 |                   |               | scan_bird_tile   | scan_sound_2 |                  |             |
+|                 |                   |               | scan_buzz_sound  | scan_sound_3 |                  |             |
 |                 |                   |               | scan_garment     | scan_sound_4 |                  |             |
 |                 |                   |               | scan_metal_gizmo | scan_sound_5 |                  |             |
-|                 |                   |               | scan_paint_brush | weather_rain |                  |             |
+|                 |                   |               | scan_paint_brush |              |                  |             |
 |                 |                   |               | scan_telescope   |              |                  |             |
 |                 |                   |               | scan_tree_branch |              |                  |             |
 |                 |                   |               | scan_wall_gears  |              |                  |             |
 |                 |                   |               | scan_wall_marks  |              |                  |             |
+==========================================================================================================================
+| MR_misc         | cmd_cam_switch    |               |                  | weather_rain | puzzle_camera    |             |
+|                 | end_module        |               |                  |              | topdown_camera   |             |
+|                 | keep_door_open    |               |                  |              |                  |             |
 ==========================================================================================================================
 | MR_mushrooms    |                   |               | m_beacon         |              |                  |             |
 |                 |                   |               | m_bunch          |              |                  |             |
@@ -43,7 +47,8 @@
 |                 |                   |               | m_note_white     |              |                  |             |
 |                 |                   |               | m_note_yellow    |              |                  |             |
 |                 |                   |               | m_triple         |              |                  |             |
-|                 |                   |               | t_lit            |              |                  |             |
+==========================================================================================================================
+| MR_temple       |                   |               | t_lit            |              |                  |             |
 |                 |                   |               | t_unlit          |              |                  |             |
 ==========================================================================================================================
 |                                                                                                                        |
