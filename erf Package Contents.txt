@@ -8,6 +8,7 @@
 |                 | cmd_cam_topdown   |               | scannable_center |              |                  |             |
 |                 | enter_area        |               | torch_center     |              |                  |             |
 |                 | pulse_effect      |               |                  |              |                  |             |
+|                 | pulse_effect      |               |                  |              |                  |             |
 |                 | support_color     |               |                  |              |                  |             |
 |                 | support_effects   |               |                  |              |                  |             |
 |                 | support_sound     |               |                  |              |                  |             |
@@ -22,7 +23,7 @@
 ==========================================================================================================================
 | MR_misc         | cmd_cam_switch    |               | scan_beak_rock   | scan_sound_1 | puzzle_camera    |             |
 |                 | end_module        |               | scan_bird_tile   | scan_sound_2 | topdown_camera   |             |
-|                 |                   |               | scan_buzz_sound  | scan_sound_3 |                  |             |
+|                 | keep_door_open    |               | scan_buzz_sound  | scan_sound_3 |                  |             |
 |                 |                   |               | scan_garment     | scan_sound_4 |                  |             |
 |                 |                   |               | scan_metal_gizmo | scan_sound_5 |                  |             |
 |                 |                   |               | scan_paint_brush | weather_rain |                  |             |
