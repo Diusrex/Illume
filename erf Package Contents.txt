@@ -18,6 +18,7 @@
 |                 | log_3_subtitles   |               | audio_log_3      | log_3_sound      | log_3_trigger    |             |
 |                 | log_4_subtitles   |               | audio_log_4      | log_4_sound      | log_4_trigger    |             |
 |                 | log_5_subtitles   |               | audio_log_5      | log_5_sound      | log_5_trigger    |             |
+|                 | log_6_subtitles   |               | audio_log_6      | log_6_sound      | log_6_trigger    |             |
 |                 | play_audio_log    |               |                  |                  |                  |             |
 ==============================================================================================================================
 | MR_scannable    |                   |               | s1_tree_branch   | scan_sound_1     |                  |             |
