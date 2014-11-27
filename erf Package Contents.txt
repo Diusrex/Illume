@@ -3,9 +3,9 @@
 |  .erf Filename  |      Scripts      |   Creatures   |    Placeables    |      Sounds      |     Triggers     |  Waypoints  |
 |                 |                   |               |                  |                  |                  |             |
 ==============================================================================================================================
-| MR_dinger       | activate_pulse    |               | audio_log_center |                  |                  |             |
-|                 | aoe_of_pulse      |               | pulse_center     |                  |                  |             |
-|                 | cmd_cam_topdown   |               | scannable_center |                  |                  |             |
+| MR_dinger       | activate_pulse    |               | center_audio_log |                  |                  |             |
+|                 | aoe_of_pulse      |               | center_pulse     |                  |                  |             |
+|                 | cmd_cam_topdown   |               | center_scannable |                  |                  |             |
 |                 | enter_area        |               |                  |                  |                  |             |
 |                 | pulse_effect      |               |                  |                  |                  |             |
 |                 | support_color     |               |                  |                  |                  |             |
