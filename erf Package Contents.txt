@@ -20,16 +20,13 @@
 |                 | log_5_subtitles   |               | audio_log_5      | log_5_sound      | log_5_trigger    |             |
 |                 | play_audio_log    |               |                  |                  |                  |             |
 ==============================================================================================================================
-| MR_scannable    |                   |               | scan_beak_rock   | scan_sound_1     |                  |             |
-|                 |                   |               | scan_bird_tile   | scan_sound_2     |                  |             |
-|                 |                   |               | scan_buzz_sound  | scan_sound_3     |                  |             |
-|                 |                   |               | scan_garment     | scan_sound_4     |                  |             |
-|                 |                   |               | scan_metal_gizmo | scan_sound_5     |                  |             |
-|                 |                   |               | scan_paint_brush |                  |                  |             |
-|                 |                   |               | scan_telescope   |                  |                  |             |
-|                 |                   |               | scan_tree_branch |                  |                  |             |
-|                 |                   |               | scan_wall_gears  |                  |                  |             |
-|                 |                   |               | scan_wall_marks  |                  |                  |             |
+| MR_scannable    |                   |               | s1_tree_branch   | scan_sound_1     |                  |             |
+|                 |                   |               | s2_beak_rock     | scan_sound_2     |                  |             |
+|                 |                   |               | s3_stuffed_doll  | scan_sound_3     |                  |             |
+|                 |                   |               | s4_ceiling       | scan_sound_4     |                  |             |
+|                 |                   |               | s5_necklace      | scan_sound_5     |                  |             |
+|                 |                   |               | s6_plant_stalk   | scan_sound_6     |                  |             |
+|                 |                   |               | s7_paintbrush    | scan_sound_7     |                  |             |
 ==============================================================================================================================
 | MR_misc         | cmd_cam_switch    |               |                  | temple_ambience  | puzzle_camera    |             |
 |                 | end_module        |               |                  | weather_rain     | topdown_camera   |             |
