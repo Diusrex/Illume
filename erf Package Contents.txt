@@ -71,8 +71,9 @@
 |                 | tutorial_start    |               |                  |                  |                  |             |
 ==============================================================================================================================
 | MR_tabitha      | tabitha_convo     | tabitha_raya  |                  | last_convo_1     | tabitha_convo_1  | convo_1_1   |
-|                 |                   | wisp_ghost    |                  | last_convo_2     | tabitha_convo_2  | convo_1_2   |
-|                 |                   |               |                  | last_convo_3     | tabitha_convo_3  | convo_1_3   |
+|                 | tabitha_sub_1     | wisp_ghost    |                  | last_convo_2     | tabitha_convo_2  | convo_1_2   |
+|                 | tabitha_sub_2     |               |                  | last_convo_3     | tabitha_convo_3  | convo_1_3   |
+|                 | tabitha_sub_3     |               |                  |                  |                  | convo_1_4   |
 |                 |                   |               |                  |                  |                  | convo_2_1   |
 |                 |                   |               |                  |                  |                  | convo_2_2   |
 |                 |                   |               |                  |                  |                  | convo_2_3   |
@@ -80,6 +81,7 @@
 |                 |                   |               |                  |                  |                  | convo_3_1   |
 |                 |                   |               |                  |                  |                  | convo_3_2   |
 |                 |                   |               |                  |                  |                  | convo_3_3   |
+|                 |                   |               |                  |                  |                  | convo_3_4   |
 ==============================================================================================================================
 |                                                                                                                            |
 |                                                 Puzzle Specific .erf Files                                                 |
