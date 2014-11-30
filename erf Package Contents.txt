@@ -23,7 +23,7 @@
 ==============================================================================================================================
 | MR_scannable    |                   |               | s1_1_tree_branch | scan_1_1_sound   |                  |             |
 |                 |                   |               | s2_1_beak_rock   | scan_2_1_sound   |                  |             |
-|                 |                   |               | s2_2_something   | scan_2_2_sound   |                  |             |
+|                 |                   |               | s2_2_wooden_ring | scan_2_2_sound   |                  |             |
 |                 |                   |               | s3_1_doll        | scan_3_1_sound   |                  |             |
 |                 |                   |               | s3_2_ceiling     | scan_3_2_sound   |                  |             |
 |                 |                   |               | s4_1_necklace    | scan_4_1_sound   |                  |             |
