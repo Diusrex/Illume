@@ -13,25 +13,31 @@
 |                 | support_sound     |               |                  |                  |                  |             |
 |                 | turn_on_effects   |               |                  |                  |                  |             |
 ==============================================================================================================================
-| MR_audio_log    | log_1_subtitles   |               | audio_log_1      | log_1_sound      | log_1_trigger    |             |
-|                 | log_2_subtitles   |               | audio_log_2      | log_2_sound      | log_2_trigger    |             |
-|                 | log_3_subtitles   |               | audio_log_3      | log_3_sound      | log_3_trigger    |             |
-|                 | log_4_subtitles   |               | audio_log_4      | log_4_sound      | log_4_trigger    |             |
-|                 | log_5_subtitles   |               | audio_log_5      | log_5_sound      | log_5_trigger    |             |
-|                 | log_6_subtitles   |               | audio_log_6      | log_6_sound      | log_6_trigger    |             |
+| MR_audio_log    | log_1_1_subtitle  |               | audio_log_1_1    | log_1_1_sound    | log_1_trigger    |             |
+|                 | log_2_1_subtitle  |               | audio_log_2_1    | log_2_1_sound    | log_2_trigger    |             |
+|                 | log_3_1_subtitle  |               | audio_log_3_1    | log_3_1_sound    |                  |             |
+|                 | log_3_2_subtitle  |               | audio_log_3_2    | log_3_2_sound    |                  |             |
+|                 | log_4_1_subtitle  |               | audio_log_4_1    | log_4_1_sound    |                  |             |
+|                 | log_5_1_subtitle  |               | audio_log_5_1    | log_5_1_sound    |                  |             |
 |                 | play_audio_log    |               |                  |                  |                  |             |
 ==============================================================================================================================
-| MR_scannable    |                   |               | s1_tree_branch   | scan_sound_1     |                  |             |
-|                 |                   |               | s2_beak_rock     | scan_sound_2     |                  |             |
-|                 |                   |               | s3_stuffed_doll  | scan_sound_3     |                  |             |
-|                 |                   |               | s4_ceiling       | scan_sound_4     |                  |             |
-|                 |                   |               | s5_necklace      | scan_sound_5     |                  |             |
-|                 |                   |               | s6_plant_stalk   | scan_sound_6     |                  |             |
-|                 |                   |               | s7_paintbrush    | scan_sound_7     |                  |             |
+| MR_scannable    |                   |               | s1_1_tree_branch | scan_1_1_sound   |                  |             |
+|                 |                   |               | s2_1_beak_rock   | scan_2_1_sound   |                  |             |
+|                 |                   |               | s2_2_something   | scan_2_2_sound   |                  |             |
+|                 |                   |               | s3_1_doll        | scan_3_1_sound   |                  |             |
+|                 |                   |               | s3_2_ceiling     | scan_3_2_sound   |                  |             |
+|                 |                   |               | s4_1_necklace    | scan_4_1_sound   |                  |             |
+|                 |                   |               | s5_1_plant_stalk | scan_5_1_sound   |                  |             |
+|                 |                   |               | s5_2_paintbrush  | scan_5_2_sound   |                  |             |
 ==============================================================================================================================
-| MR_misc         | cmd_cam_switch    |               |                  | temple_ambience  | puzzle_camera    |             |
-|                 | end_module        |               |                  | weather_rain     | topdown_camera   |             |
-|                 | keep_door_open    |               |                  |                  |                  |             |
+| MR_misc         | cmd_cam_switch    |               |                  | incidental_1_1   | incidental_trig  |             |
+|                 | end_module        |               |                  | incidental_1_2   | puzzle_camera    |             |
+|                 | keep_door_open    |               |                  | incidental_2_1   | topdown_camera   |             |
+|                 | play_incidental   |               |                  | incidental_3_1   |                  |             |
+|                 |                   |               |                  | incidental_4_1   |                  |             |
+|                 |                   |               |                  | incidental_5_1   |                  |             |
+|                 |                   |               |                  | temple_ambience  |                  |             |
+|                 |                   |               |                  | weather_rain     |                  |             |
 ==============================================================================================================================
 | MR_mushrooms    |                   |               | m_beacon         |                  |                  |             |
 |                 |                   |               | m_bunch          |                  |                  |             |
@@ -61,7 +67,7 @@
 |                                                 Module Specific .erf Files                                                 |
 |                                                                                                                            |
 ==============================================================================================================================
-| MR_tutorial     | tutorial_end      |               |                  | intro_line       |                  |             |
+| MR_tutorial     | tutorial_end      |               |                  |                  |                  |             |
 |                 | tutorial_start    |               |                  |                  |                  |             |
 ==============================================================================================================================
 | MR_tabitha      | tabitha_convo     | tabitha_raya  |                  | last_convo_1     | tabitha_convo_1  | convo_1_1   |
