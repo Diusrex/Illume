@@ -87,7 +87,7 @@
 |                                                  Puzzle Specific .erf Files                                                  |
 |                                                                                                                              |
 ================================================================================================================================
-| MR_melody       | mel_pulse_effect  |               | mel_crystal      |                  |                  |               |
+| MR_melody       | mel_pulse_effect  |               | mel_crystal      |                  |                  | mel_waypoint  |
 |                 |                   |               | mel_urn          |                  |                  |               |
 ================================================================================================================================
 | MR_floor_lu     | flu_pulse_effect  |               | flu_obel_hint    |                  |                  | flu_waypoint  |
