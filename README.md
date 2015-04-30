@@ -1,7 +1,14 @@
 Illume, by Magpie Rodeo
 =========
 
-This is our game for CMPUT 250 at the University of Alberta.
+This is our game for CMPUT 250 in Fall 2014 at the University of Alberta.
+
+For the year of 2014/2015, we won [4 awards](https://sites.google.com/a/ualberta.ca/cmput250award2015/nominees) out of 5 main awards:
+
+  - Excellence in Art and Design
+  - Excellence in Writing and Story
+  - Audio Achievement
+  - Game of the Year
 
 Team
 ---------
