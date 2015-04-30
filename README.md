@@ -1,10 +1,58 @@
-CMPUT-250
+Illume, by Magpie Rodeo
 =========
 
-Most of the required files for this project. 
-If you want to play anything other than the forest levels, you will need to also download the CEP hakpaks that we use from the google drive.
-They are in the file hak.7z, all you will need to do is extract the files from it, and then copy the two cep hak paks into the hak folder in NWN.
-They would be in the repository, but they are too large to be put on git.
+This is our game for CMPUT 250 at the University of Alberta.
+
+Team
+---------
+  - Deanna "Denaynay" Dombroski: Producer & Artist  
+  - Doug "Penman" Bennett: Lead Designer/Audio Design  
+  - Schyler "Schyler" Palm: Writer  
+  - Morgan "INT Ninja" Redshaw: Lead Programmer  
+  - Stuart "Dingmaster" Bildfell: Programmer  
+  - Shuxiao "Trailer Saver" Miao: Programmer  
+  - Ellit "Executive Lurker" Colp: Executive Producer  
+
+Voice Actors:  
+
+  - Karisma Kapoor  
+  - Anya Palm  
+  - Christopher M. Jaillet  
+    
+Additional Story Credit to Derek Kwan
+
+
+Playing the Game
+=========
+
+Installation
+---------
+You will first need to have Neverwinter Nights (NWN) installed. It is available on [GOG](http://www.gog.com/game/neverwinter_nights_diamond_edition) for $10, or you can [download it here](https://drive.google.com/file/d/0B8USOqus2_p7SWRkcGZwTURCOEk/view?usp=sharing).
+
+Then, download and extract the zip from github into the Neverwinter Nights directory.
+
+If you want to play anything other than the forest levels, you will need to also download the [CEP hakpaks](https://drive.google.com/open?id=0B1LUiDYaJlGFRV81WUFtcVVMSG8&authuser=0) that we use from google drive, and extract that into the Neverwinter Nights directory.
+
+Everything should now be installed!
+
+Instructions
+---------
+
+1. Start NWN, then select "New".
+2. Select "Other Modules".
+3. Load Illume - Area 1.
+4. Select "Use Pre-made Character".
+5. Select Susan Donado.
+6. Start the game.
+7. In-game controls are left-click to move, and F1 to pulse.
+
+WARNING: If you are unable to pulse, then you selected the wrong character
+
+
+
+Developing
+=========
+
 
 Adding a new Module
 ---------
@@ -62,7 +110,6 @@ Organization
 
 - Should add the prefix "MR_" to all files created for this project.
 
-- All modules for our project should be in the modules folder, all hakpaks should be in the hak folder, the character should be in the localvault
-  folder, and the scripts should be exported together by purpose (eg MR_Camera for camera scripts, MR_Dinger for scripts related to the dinger).  
+- All modules for our project should be in the modules folder, all hakpaks should be in the hak folder, the character should be in the localvault folder, and the scripts should be exported together by purpose (eg MR_Camera for camera scripts, MR_Dinger for scripts related to the dinger).  
 
 - The purpose of this organization is that then you can just copy all of the contents of this repository into the Neverwinter nights directory and immediately run it.
