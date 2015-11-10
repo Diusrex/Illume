@@ -10,6 +10,9 @@ For the year of 2014/2015, we won [4 awards](https://sites.google.com/a/ualberta
   - Audio Achievement
   - Game of the Year
 
+We have also created a [complete gameplay video](https://www.youtube.com/watch?v=-42a-oyos8I&feature=youtu.be) and have some [screenshots](https://dougbennett.carbonmade.com/projects/5829553).
+
+
 Team
 ---------
   - Deanna "Denaynay" Dombroski: Producer & Artist  
